@@ -43,7 +43,7 @@ const Addjob = () => {
                        
         })
         .catch(err => console.error(err));
-        navigate('/myApplications')
+        navigate('/myPostedJobs')
         
     }
 
